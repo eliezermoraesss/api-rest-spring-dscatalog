@@ -1,5 +1,5 @@
 # Backend Dashboard Catálogo de Produtos
-## Bootcamp Desenvolvedor Fullstack Spring React DevSuperior
+## Bootcamp Desenvolvedor Fullstack Spring React DevSuperior 3.0
 
 ## Technologies<br>
 1. Spring Boot<br>
