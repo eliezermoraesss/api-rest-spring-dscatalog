@@ -1,13 +1,13 @@
-# Backend Dashboard Catálogo de Produtos
-## Bootcamp Desenvolvedor Fullstack Spring React DevSuperior 3.0
+# 👨🏼‍💻 Backend Dashboard Catálogo de Produtos
+## 📚 Bootcamp Desenvolvedor Fullstack Spring React DevSuperior 3.0
 
-## Technologies<br>
+## 🔷 Technologies<br>
 1. Spring Boot<br>
 2. Spring Data JPA<br>
 3. ORM<br>
 4. H2 Database <br>
 
-## Features
+## 🔷 Features
 1. DTO (Data Transfer Object) principles<br>
 2. Automaticaly converter DTO to Entity<br>
 3. Custom Exception Handler messages<br>
@@ -18,7 +18,7 @@
 8. Respositories<br>
 9. Exceptions<br>
 
-## Built With<br>
+## 🔷 Built With<br>
 Spring Initializr<br>
 Maven<br>
 
@@ -28,7 +28,7 @@ For tests cases, you can check the API endpoints with Postman.<br>
 
 [Postman Collection](https://www.postman.com/)<br>
 
-## Backend: 
+## 🔷 Backend: 
 1. Busca paginada de recursos<br>
 2. Busca de recurso por id<br>
 3. Inserir novo recurso<br>
@@ -43,13 +43,13 @@ Seu projeto deverá fazer um seed de pelo menos 10 clientes com dados SIGNIFICAT
 
 Atenção: lembre-se de que por padrão a JPA transforma nomes de atributos em camelCase para snake_case, como foi o caso do campo imgUrl do DSCatalog, que no banco de dados tinha o nome img_Url. Assim, o campo birthDate acima será criado no banco de dados como birth_Date, então seu script SQL deverá seguir este padrão.<br>
 
-## Testes manuais no Postman<br>
+## 🔷 Testes manuais no Postman<br>
 <b>GET /clients?page=0&linesPerPage=6&direction=ASC&orderBy=name<br> </b>
 
-### Busca de cliente por id<br>
+### 🔷 Busca de cliente por id<br>
 <b>GET /clients/1<br></b>
 
-### Inserção de novo cliente<br>
+### 🔷 Inserção de novo cliente<br>
 <b>POST /clients<br></b>
 {<br>
   "name": "Maria Silva",<br>
@@ -59,7 +59,7 @@ Atenção: lembre-se de que por padrão a JPA transforma nomes de atributos em c
   "children": 2<br>
 }<br>
 
-### Atualização de cliente<br>
+### 🔷 Atualização de cliente<br>
 <b>PUT /clients/1<br></b>
 {<br>
   "name": "Maria Silvaaa",<br>
@@ -69,5 +69,5 @@ Atenção: lembre-se de que por padrão a JPA transforma nomes de atributos em c
   "children": 2<br>
 }<br>
 
-### Deleção de cliente
+### 🔷 Deleção de cliente
 <b>DELETE /clients/1</b>
