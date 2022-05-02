@@ -1,7 +1,6 @@
 package com.devsuperior.dscatalog.services;
 
 import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.Mockito.times;
 
 import java.util.List;
 import java.util.Optional;
