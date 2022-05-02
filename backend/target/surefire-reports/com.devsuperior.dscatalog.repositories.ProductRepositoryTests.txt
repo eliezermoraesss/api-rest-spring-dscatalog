@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.devsuperior.dscatalog.repositories.ProductRepositoryTests
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.224 s - in com.devsuperior.dscatalog.repositories.ProductRepositoryTests

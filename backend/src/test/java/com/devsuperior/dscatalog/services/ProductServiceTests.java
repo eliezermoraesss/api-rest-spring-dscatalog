@@ -1,7 +1,6 @@
 package com.devsuperior.dscatalog.services;
 
 import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.Mockito.times;
 
 import java.util.List;
 import java.util.Optional;
@@ -73,12 +72,14 @@ public class ProductServiceTests {
 		Mockito.when(repository.find(any(), any(), any())).thenReturn(page);
 
 		Mockito.when(repository.getOne(existingId)).thenReturn(product);
+		
 		Mockito.when(repository.getOne(nonExistingId)).thenThrow(EntityNotFoundException.class);
 
 		Mockito.when(categoryRepository.getOne(existingId)).thenReturn(category);
 		Mockito.when(categoryRepository.getOne(nonExistingId)).thenThrow(EntityNotFoundException.class);
 
 		Mockito.doNothing().when(repository).deleteById(existingId); // quando o método que estou simulando é void
+		
 		Mockito.doThrow(EmptyResultDataAccessException.class).when(repository).deleteById(nonExistingId);
 		Mockito.doThrow(DataIntegrityViolationException.class).when(repository).deleteById(dependentId);
 	}

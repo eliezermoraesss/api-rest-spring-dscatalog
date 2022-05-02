@@ -1,0 +1,8 @@
+com\devsuperior\dscatalog\services\ProductServiceTests.class
+com\devsuperior\dscatalog\resources\ProductResourceTests.class
+com\devsuperior\dscatalog\services\ProductServiceIT.class
+com\devsuperior\dscatalog\tests\Factory.class
+com\devsuperior\dscatalog\repositories\ProductRepositoryTests.class
+com\devsuperior\dscatalog\DscatalogApplicationTests.class
+com\devsuperior\dscatalog\tests\TokenUtil.class
+com\devsuperior\dscatalog\resources\ProductResourceIT.class
