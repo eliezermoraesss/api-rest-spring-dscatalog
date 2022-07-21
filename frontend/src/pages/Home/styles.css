@@ -7,9 +7,7 @@
 .home-card {
   display: flex;
   flex-direction: column-reverse;
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
-  background-color: #fff;
 }
 
 .home-content-container {
