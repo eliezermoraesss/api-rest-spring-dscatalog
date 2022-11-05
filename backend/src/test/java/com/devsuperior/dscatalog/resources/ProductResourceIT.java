@@ -23,7 +23,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @SpringBootTest
 @AutoConfigureMockMvc
 @Transactional
-public class ProductResourceIT {
+public class ProductResourceIT {    
 	
 	@Autowired
 	private TokenUtil tokenUtil;
