@@ -6,12 +6,15 @@
 2. Spring Data JPA<br>
 3. ORM<br>
 4. Spring Security
-5. Spring Cloud
-6. H2 Database <br>
-7. PostgreSQL
-8. AWS Deploy
-9. OAuth2
-10. JWT
+5. OAuth2
+6. JWT
+7. Spring Cloud
+8. H2 Database <br>
+9. PostgreSQL
+10. Containerization
+11. Docker
+12. Docker Compose
+13. AWS Deploy
 
 ## 🔷 Features
 1. DTO (Data Transfer Object) principles<br>
