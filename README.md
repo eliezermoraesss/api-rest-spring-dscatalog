@@ -5,7 +5,13 @@
 1. Spring Boot<br>
 2. Spring Data JPA<br>
 3. ORM<br>
-4. H2 Database <br>
+4. Spring Security
+5. Spring Cloud
+6. H2 Database <br>
+7. PostgreSQL
+8. AWS Deploy
+9. OAuth2
+10. JWT
 
 ## 🔷 Features
 1. DTO (Data Transfer Object) principles<br>
@@ -17,6 +23,11 @@
 7. Entities<br>
 8. Respositories<br>
 9. Exceptions<br>
+10. Validation and Authorization
+11. JUnit tests
+12. TDD
+
+
 
 ## 🔷 Built With<br>
 Spring Initializr<br>
