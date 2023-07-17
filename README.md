@@ -48,14 +48,6 @@ For tests cases, you can check the API endpoints with Postman.<br>
 3. Inserir novo recurso<br>
 4. Atualizar recurso<br>
 5. Deletar recurso<br>
-<br>
-O projeto deverá estar com um ambiente de testes configurado acessando o banco de dados H2, deverá usar Maven como gerenciador de dependência, e Java 11 como linguagem.
-<br>
-Um cliente possui nome, CPF, renda, data de nascimento, e quantidade de filhos. A especificação da entidade Client é mostrada a seguir (você deve seguir à risca os nomes de classe e atributos mostrados no diagrama):<br>
-
-Seu projeto deverá fazer um seed de pelo menos 10 clientes com dados SIGNIFICATIVOS (não é para usar dados sem significado como “Nome 1”, “Nome 2”, etc.).<br>
-
-Atenção: lembre-se de que por padrão a JPA transforma nomes de atributos em camelCase para snake_case, como foi o caso do campo imgUrl do DSCatalog, que no banco de dados tinha o nome img_Url. Assim, o campo birthDate acima será criado no banco de dados como birth_Date, então seu script SQL deverá seguir este padrão.<br>
 
 ## 🔷 Testes manuais no Postman<br>
 <b>GET /clients?page=0&linesPerPage=6&direction=ASC&orderBy=name<br> </b>
